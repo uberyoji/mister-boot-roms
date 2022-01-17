@@ -1,9 +1,11 @@
 # mister-boot-roms
 Custom boot roms for the MiSTer FPGA project
 
-So far only the following are available:
+So far only the following core roms are available:
 - NES (boot1.rom)
-- Gamneboy (boot2.rom)
+![NES](Images/NES.gif)
+- Gameboy (boot2.rom)
+![Gameboy](Images/gameboy.gif)
 
 I plan to do:
 - GBA (boot.rom)
@@ -15,4 +17,5 @@ I plan to do:
 TODO:
 - Clean and upload source code.
 - Add build steps for each roms.
-
+- Brainstorm some ideas
+- Add more variations, fx, interactivity
