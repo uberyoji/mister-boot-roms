@@ -9,11 +9,11 @@ Copy the 'Games' folder in /media/fat.
 ![NES](Images/NES.gif)
 - Gameboy (boot2.rom)  
 ![Gameboy](Images/gameboy.gif)
+- Genesis (boot.rom) WIP
 
 #### I plan to do:
 - GBA (boot.rom)
 - SNES (boot.rom)
-- Genesis (boot.rom)
 - PC Engine (boot.rom)
 - Master System (not sure how yet)
 
@@ -22,5 +22,13 @@ Copy the 'Games' folder in /media/fat.
 - Add build steps for each roms.
 - Brainstorm some ideas
 - Add more variations, fx, interactivity
+
+#### TODO NES:
+- Add more scenes
+- Add sram support to save scene config
+
+#### TODO: Gameboy
+- Add more scenes
+- Add sram support to save scene config
 
 Feel free to contact me via the issues if you have comments, suggestions, feedback.
