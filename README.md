@@ -10,11 +10,11 @@ Copy the 'Games' folder in /media/fat.
 - Gameboy (boot2.rom)  
 ![Gameboy](Images/gameboy.gif)
 - Genesis (boot.rom) WIP
+- PC Engine (boot.rom) WIP
 
 #### I plan to do:
 - GBA (boot.rom)
 - SNES (boot.rom)
-- PC Engine (boot.rom)
 - Master System (not sure how yet)
 
 #### TODO:
@@ -30,5 +30,6 @@ Copy the 'Games' folder in /media/fat.
 #### TODO: Gameboy
 - Add more scenes
 - Add sram support to save scene config
+ to save scene config
 
 Feel free to contact me via the issues if you have comments, suggestions, feedback.
