@@ -2,7 +2,8 @@
 Custom boot roms for the MiSTer FPGA project
 
 ## How to install
-Copy the 'Games' folder in /media/fat.
+- Using the green 'Code' button from the repo page, select 'Download ZIP'
+- Extract the 'Games' folder in /media/fat on your mister sd card.
 
 #### So far only the following core roms are available:
 - NES (boot1.rom)  
