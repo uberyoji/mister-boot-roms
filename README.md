@@ -8,15 +8,15 @@ Custom boot roms for the MiSTer FPGA project
 #### So far only the following core roms are available:
 - NES (boot1.rom)  
 ![NES](Images/NES.gif)
-- Gameboy (boot2.rom)  
+- Nintendo Gameboy (boot2.rom)  
 ![Gameboy](Images/gameboy.gif)
-- Genesis (boot.rom) WIP
-- PC Engine (boot.rom) WIP
+- Sega Genesis (boot.rom) WIP
+- NEC PC Engine (boot.rom) WIP
+- Sega Master System (boot.rom) WIP (Issue with bios. Disable in menu to have it run.)
 
 #### I plan to do:
-- GBA (boot.rom)
+- GBA (boot.rom) WIP. Unreleased since the boot support in MiSTer is not working :-/
 - SNES (boot.rom)
-- Master System (not sure how yet)
 
 #### TODO:
 - Clean and upload source code.
@@ -31,6 +31,15 @@ Custom boot roms for the MiSTer FPGA project
 #### TODO: Gameboy
 - Add more scenes
 - Add sram support to save scene config
- to save scene config
+ 
+#### TODO: PC Engine
+- Add more scenes
+- Add sram support to save scene config
+
+#### TODO: SMS
+- Add more scenes
+- Add sram support to save scene config
+- Fix issue with bios turned on
+ 
 
 Feel free to contact me via the issues if you have comments, suggestions, feedback.
