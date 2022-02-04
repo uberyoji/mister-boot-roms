@@ -15,20 +15,17 @@ For more information about MiSTer please refer to the official wiki page: https:
 - Extract the 'Games' folder in /media/fat on your mister sd card.
 
 #### So far only the following core roms are available:
-- NES (boot1.rom)  
-![NES](Images/NES.gif)
-- Nintendo Gameboy (boot2.rom)  
-![Gameboy](Images/gameboy.gif)
-- NEC PC Engine (boot.rom)
-![PCE](Images/pce.gif)
-- Sega Master System (boot.rom) WIP (Issue with bios. Disable in menu to have it launch properly on core boot.)
-![SMS](Images/sms.gif)
-- Sega Genesis (boot.rom) WIP
+| Core | Naming | Preview | Notes |
+| :--: | :------: | :----: | :---: | 
+| NES | boot1.rom | ![NES](Images/NES.gif) | |
+| Nintendo Gameboy | boot2.rom | ![Gameboy](Images/gameboy.gif) | |
+| NEC PC Engine | boot.rom | ![PCE](Images/pce.gif) | |
+| Sega Master System | boot.rom | ![SMS](Images/sms.gif) | WIP (Issue with bios. Disable in menu to have it launch properly on core boot.) |
+| Sega Genesis | boot.rom | | WIP |
 
-#### Planned core roms:
+#### Upcoming core roms:
 - SNES (boot.rom)
 - GBA (boot.rom) WIP. Unreleased since the boot support in MiSTer is not working :-/ See this: https://github.com/MiSTer-devel/GBA_MiSTer/issues/87
-
 
 #### General TODO:
 - Clean and upload source code.
