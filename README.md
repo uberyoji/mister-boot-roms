@@ -18,13 +18,13 @@ For more information about MiSTer please refer to the official wiki page: https:
 | Core | Naming | Preview | Notes |
 | :--: | :------: | :----: | :---: | 
 | NES | boot1.rom | ![NES](Images/NES.gif) | |
+| SNES | boot.rom | ![NES](Images/snes.gif) | |
 | Nintendo Gameboy | boot2.rom | ![Gameboy](Images/gameboy.gif) | |
 | NEC PC Engine | boot.rom | ![PCE](Images/pce.gif) | |
 | Sega Master System | boot.rom | ![SMS](Images/sms.gif) | WIP (Issue with bios. Disable in menu to have it launch properly on core boot.) |
 | Sega Genesis | boot.rom | | WIP |
 
 #### Upcoming core roms:
-- SNES (boot.rom)
 - GBA (boot.rom) WIP. Unreleased since the boot support in MiSTer is not working :-/ See this: https://github.com/MiSTer-devel/GBA_MiSTer/issues/87
 
 #### General TODO:
@@ -34,6 +34,10 @@ For more information about MiSTer please refer to the official wiki page: https:
 - Add more variations, fx, interactivity
 
 #### TODO: NES
+- Add more scenes
+- Add sram support to save scene config
+
+#### TODO: SNES
 - Add more scenes
 - Add sram support to save scene config
 
