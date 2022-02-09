@@ -11,8 +11,9 @@ If you want to contribute now, feel free to contact me on twitter. twitter.com/u
 For more information about MiSTer please refer to the official wiki page: https://github.com/MiSTer-devel/Main_MiSTer/wiki
 
 ## How to install the boot roms
-- Using the green 'Code' button from the main repo page, select 'Download ZIP'
-- Extract the 'Games' folder in /media/fat on your mister sd card.
+- Navigate to the tags section of this repo
+- Download 'mister-boot-roms.zip'
+- Extract it into your 'Games' folder (usually /media/fat/Games on your mister sd card)
 
 #### So far only the following core roms are available:
 | Core | Naming | Preview | Notes |
