@@ -17,8 +17,8 @@ For more information about MiSTer please refer to the official wiki page: https:
 
 #### So far only the following core roms are available:
 | Core | Naming | Preview | Notes |
-| :--: | :------: | :----: | :---: | 
-| NES | boot1.rom | ![NES](Images/NES.gif) | |
+| :--: | :------: | :----: | :--- | 
+| NES | boot1.rom | ![NES](Images/NES.gif) | Keys<br/>> Select: Toggle rainbow on/off on logo<br/>> Left/Right: Change logo color<br/><br/>Last scene and options now saved to sram.  |
 | SNES | boot.rom | ![NES](Images/snes.gif) | |
 | Nintendo Gameboy | boot2.rom | ![Gameboy](Images/gameboy.gif) | |
 | NEC PC Engine | boot.rom | ![PCE](Images/pce.gif) | |
