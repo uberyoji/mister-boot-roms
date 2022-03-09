@@ -1,0 +1,85 @@
+
+    {    
+        "db_id": "uberyoji-mister-boot-roms.json",
+        "timestamp": 1646800552,
+        "files": {
+            
+            "Games/Gameboy/boot2.rom": {
+                "hash": "4cdf301d898ba7e87e086879d46fa1f5",
+                "size": 32768,
+                "url": "mister-boot.gb",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "Games/Genesis/boot.rom": {
+                "hash": "4539db668dcbc1e19e32807374e237dd",
+                "size": 106516,
+                "url": "mister-boot.md",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "Games/NES/boot1.rom": {
+                "hash": "3260a692f12985fd36962f3cbccc1c8c",
+                "size": 262160,
+                "url": "mister-boot.nes",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "Games/SMS/boot.rom": {
+                "hash": "f5535d9934332f52d5760a403547057d",
+                "size": 32768,
+                "url": "mister-boot.sms",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "Games/SNES/boot.rom": {
+                "hash": "8bbf9ff1db725b5d96ec8f001467494e",
+                "size": 262144,
+                "url": "mister-boot.sfc",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "Games/TGFX16/boot.rom": {
+                "hash": "8c66c17a94a8fffa95abd611092079ed",
+                "size": 131072,
+                "url": "mister-boot.pce",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            }
+        },
+
+        "folders": {
+            "Games/NES/": { 
+                "tags": []
+            },
+            "Games/SNES/": { 
+                "tags": []
+            },
+            "Games/Genesis/": {
+                "tags": []
+            },
+            "Games/SMS/": { 
+                "tags": []   
+            },
+            "Games/Gameboy/": { 
+                "tags": []
+            },
+            "Games/TGFX16/": { 
+                "tags": []     
+            }
+        },
+
+        "base_files_url": "https://github.com/uberyoji/mister-boot-roms/releases/tag/v0.6/"
+    }
+    
