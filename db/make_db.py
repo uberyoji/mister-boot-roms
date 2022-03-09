@@ -6,10 +6,11 @@ import hashlib
 import time
 import json
 
-# https://raw.githubusercontent.com/uberyoji/mister-boot-roms/main/db/uberyoji-mister-boot-roms.json
-# https://github.com/uberyoji/mister-boot-roms/releases/download/
+# Add the following to /media/fat/downloader.ini
+# [uberyoji_mister_boot_roms]
+# db_url = 'https://raw.githubusercontent.com/uberyoji/mister-boot-roms/main/db/uberyoji_mister_boot_roms.json'
 
-db_filename = "uberyoji-mister-boot-roms.json"
+db_filename = "uberyoji_mister_boot_roms.json"
 
 def get_file_props( entry ):
     pathname = entry[0]
@@ -30,9 +31,6 @@ def get_file_props( entry ):
     else:
         print( "{} not found".format(filename) )
         return ""
-
-# print ('Number of arguments:', len(sys.argv), 'arguments.')
-# print ('Argument List:', str(sys.argv))
 
 roms = [
     ("Games/Gameboy/boot2.rom","mister-boot.gb"),
