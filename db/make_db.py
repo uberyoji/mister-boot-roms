@@ -8,9 +8,10 @@ import json
 
 # Add the following to /media/fat/downloader.ini
 # [uberyoji_mister_boot_roms]
-# db_url = 'https://raw.githubusercontent.com/uberyoji/mister-boot-roms/main/db/uberyoji_mister_boot_roms.json'
+# db_url = https://raw.githubusercontent.com/uberyoji/mister-boot-roms/main/db/uberyoji_mister_boot_roms.json
 
-db_filename = "uberyoji_mister_boot_roms.json"
+db_name = "uberyoji_mister_boot_roms"
+db_filename = db_name+".json"
 
 def get_file_props( entry ):
     pathname = entry[0]
@@ -91,7 +92,7 @@ def build_json( tag ):
     
     files = files[:-2]  # trim last comma
 
-    return json.format( db_filename, int(time.time()), files, tag )
+    return json.format( db_name, int(time.time()), files, tag )
 
 tag = sys.argv[1]
 
