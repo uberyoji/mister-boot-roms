@@ -10,8 +10,12 @@ import json
 # [uberyoji_mister_boot_roms]
 # db_url = https://raw.githubusercontent.com/uberyoji/mister-boot-roms/main/db/uberyoji_mister_boot_roms.json
 
+tag = sys.argv[1]
+
 db_name = "uberyoji_mister_boot_roms"
 db_filename = db_name+".json"
+
+db_url= "https://github.com/uberyoji/mister-boot-roms/releases/download/{}/".format(tag)
 
 def get_file_props( entry ):
     pathname = entry[0]
@@ -28,7 +32,7 @@ def get_file_props( entry ):
                 "overwrite": true,
                 "reboot": false
             }}"""
-        return file_entry.format( pathname, hashlib.md5(open(fullname,'rb').read()).hexdigest(), os.path.getsize(fullname), filename )
+        return file_entry.format( pathname, hashlib.md5(open(fullname,'rb').read()).hexdigest(), os.path.getsize(fullname), "{}{}".format( db_url, filename ) )
     else:
         print( "{} not found".format(filename) )
         return ""
@@ -93,8 +97,6 @@ def build_json( tag ):
     files = files[:-2]  # trim last comma
 
     return json.format( db_name, int(time.time()), files, tag )
-
-tag = sys.argv[1]
 
 json_content = build_json(tag);
 # print( json_content )
