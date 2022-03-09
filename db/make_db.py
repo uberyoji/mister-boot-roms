@@ -6,6 +6,9 @@ import hashlib
 import time
 import json
 
+# https://raw.githubusercontent.com/uberyoji/mister-boot-roms/main/db/uberyoji-mister-boot-roms.json
+# https://github.com/uberyoji/mister-boot-roms/releases/download/
+
 db_filename = "uberyoji-mister-boot-roms.json"
 
 def get_file_props( entry ):
@@ -79,7 +82,7 @@ def build_json( tag ):
             }}
         }},
 
-        "base_files_url": "https://github.com/uberyoji/mister-boot-roms/releases/tag/{3}/"
+        "base_files_url": "https://github.com/uberyoji/mister-boot-roms/releases/download/{3}/"
     }}
     """
 

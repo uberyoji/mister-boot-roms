@@ -1,7 +1,7 @@
 
     {    
         "db_id": "uberyoji-mister-boot-roms.json",
-        "timestamp": 1646800552,
+        "timestamp": 1646801581,
         "files": {
             
             "Games/Gameboy/boot2.rom": {
@@ -80,6 +80,6 @@
             }
         },
 
-        "base_files_url": "https://github.com/uberyoji/mister-boot-roms/releases/tag/v0.6/"
+        "base_files_url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.6/"
     }
     
