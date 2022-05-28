@@ -28,10 +28,10 @@ So far only the following core roms are available.
 | :--: | :------: | :----: | :--- | 
 | NES | boot1.rom | ![NES](Images/NES.gif) | Keys<br/>> Select: Toggle rainbow on/off on logo<br/>> Left/Right: Change logo color<br/><br/>Last scene and options now saved to sram.  |
 | SNES | boot.rom | ![NES](Images/snes.gif) | |
-| Nintendo Gameboy | boot2.rom | ![Gameboy](Images/gameboy.gif) | |
+| Nintendo Gameboy | boot2.rom | ![Gameboy](Images/gameboy.gif) | Must set System to Gameboy since System:Auto won't work properly. |
 | NEC PC Engine | boot.rom | ![PCE](Images/pce.gif) | |
 | Sega Master System | boot.rom | ![SMS](Images/sms.gif) | WIP (Issue with bios. Disable in menu to have it launch properly on core boot.) |
-| Sega Genesis | boot.rom | | WIP |
+| Sega Genesis | boot.rom | ![Genesis](Images/genesis.gif) |  |
 
 #### Upcoming core roms:
 - GBA (boot.rom) WIP. Unreleased since the boot support in MiSTer is not working :-/ See this: https://github.com/MiSTer-devel/GBA_MiSTer/issues/87
