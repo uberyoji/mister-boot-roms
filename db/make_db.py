@@ -43,7 +43,8 @@ roms = [
     ("Games/NES/boot1.rom","mister-boot.nes"),
     ("Games/SMS/boot.rom","mister-boot.sms"),
     ("Games/SNES/boot.rom","mister-boot.sfc"),
-    ("Games/TGFX16/boot.rom","mister-boot.pce")
+    ("Games/TGFX16/boot.rom","mister-boot.pce"),
+    ("Games/S32X/boot.rom","mister-boot.32x"),
 ]
 
 def validate(text):
@@ -81,6 +82,9 @@ def build_json( tag ):
                 "tags": []
             }},
             "Games/TGFX16/": {{ 
+                "tags": []     
+            }},
+            "Games/S32X/": {{ 
                 "tags": []     
             }}
         }},

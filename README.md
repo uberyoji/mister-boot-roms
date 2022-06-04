@@ -32,6 +32,7 @@ So far only the following core roms are available.
 | NEC PC Engine | boot.rom | ![PCE](Images/pce.gif) | |
 | Sega Master System | boot.rom | ![SMS](Images/sms.gif) | WIP (Issue with bios. Disable in menu to have it launch properly on core boot.) |
 | Sega Genesis | boot.rom | ![Genesis](Images/genesis.gif) |  |
+| Sega 32X | boot.rom | ![32X](Images/32x.gif) |  |
 
 #### Upcoming core roms:
 - GBA (boot.rom) WIP. Unreleased since the boot support in MiSTer is not working :-/ See this: https://github.com/MiSTer-devel/GBA_MiSTer/issues/87
@@ -42,19 +43,7 @@ So far only the following core roms are available.
 - Brainstorm some ideas
 - Add more variations, fx, interactivity
 
-#### TODO: NES
-- Add more scenes
-- Add sram support to save scene config
-
-#### TODO: SNES
-- Add more scenes
-- Add sram support to save scene config
-
 #### TODO: Gameboy
-- Add more scenes
-- Add sram support to save scene config
- 
-#### TODO: PC Engine
 - Add more scenes
 - Add sram support to save scene config
 
@@ -62,6 +51,9 @@ So far only the following core roms are available.
 - Add more scenes
 - Add sram support to save scene config
 - Fix issue with bios turned on
+
+#### TODO: 32X
+- Save fire palette selection to SRAM
  
 
 Feel free to contact me via the issues if you have comments, suggestions, feedback.
