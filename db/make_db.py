@@ -42,13 +42,13 @@ def get_file_props( entry ):
         return ""
 
 roms = [
-    ("Games/Gameboy/boot2.rom","mister-boot.gb"),
-    ("Games/Genesis/boot.rom","mister-boot.md"),
-    ("Games/NES/boot1.rom","mister-boot.nes"),
-    ("Games/SMS/boot.rom","mister-boot.sms"),
-    ("Games/SNES/boot.rom","mister-boot.sfc"),
-    ("Games/TGFX16/boot.rom","mister-boot.pce"),
-    ("Games/S32X/boot.rom","mister-boot.32x"),
+    ("|games/Gameboy/boot2.rom","mister-boot.gb"),
+    ("|games/Genesis/boot.rom","mister-boot.md"),
+    ("|games/NES/boot1.rom","mister-boot.nes"),
+    ("|games/SMS/boot.rom","mister-boot.sms"),
+    ("|games/SNES/boot.rom","mister-boot.sfc"),
+    ("|games/TGFX16/boot.rom","mister-boot.pce"),
+    ("|games/S32X/boot.rom","mister-boot.32x"),
 ]
 
 def validate(text):
