@@ -13,7 +13,11 @@ import json
 tag = sys.argv[1]
 
 db_name = "uberyoji_mister_boot_roms"
-db_filename = db_name+".json"
+
+if len(sys.argv) > 2:
+    db_filename = sys.argv[2]+".json"
+else:
+    db_filename = db_name+".json"
 
 db_url= "https://github.com/uberyoji/mister-boot-roms/releases/download/{}/".format(tag)
 
@@ -66,25 +70,25 @@ def build_json( tag ):
         }},
 
         "folders": {{
-            "Games/NES/": {{ 
+            "|games/NES/": {{ 
                 "tags": []
             }},
-            "Games/SNES/": {{ 
+            "|games/SNES/": {{ 
                 "tags": []
             }},
-            "Games/Genesis/": {{
+            "|games/Genesis/": {{
                 "tags": []
             }},
-            "Games/SMS/": {{ 
+            "|games/SMS/": {{ 
                 "tags": []   
             }},
-            "Games/Gameboy/": {{ 
+            "|games/Gameboy/": {{ 
                 "tags": []
             }},
-            "Games/TGFX16/": {{ 
+            "|games/TGFX16/": {{ 
                 "tags": []     
             }},
-            "Games/S32X/": {{ 
+            "|games/S32X/": {{ 
                 "tags": []     
             }}
         }},
