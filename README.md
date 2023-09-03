@@ -31,7 +31,7 @@ So far only the following core roms are available.
 | Nintendo Gameboy | boot2.rom | ![Gameboy](Images/gameboy.gif) | Must set System to Gameboy since System:Auto won't work properly. |
 | NEC PC Engine | boot.rom | ![PCE](Images/pce.gif) | |
 | Sega Master System | boot.rom | ![SMS](Images/sms.gif) | WIP (Issue with bios. Disable in menu to have it launch properly on core boot.) |
-| Sega Genesis | boot.rom | ![Genesis](Images/genesis.gif) |  |
+| Sega Genesis | boot1.rom | ![Genesis](Images/genesis.gif) | Not compatible with new Nuked MD MegaDrive core yet. |
 | Sega 32X | boot.rom | ![32X](Images/32x.gif) |  |
 
 #### Upcoming core roms:

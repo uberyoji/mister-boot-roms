@@ -43,7 +43,7 @@ def get_file_props( entry ):
 
 roms = [
     ("|games/Gameboy/boot2.rom","mister-boot.gb"),
-    ("|games/Genesis/boot.rom","mister-boot.md"),
+    ("|games/Genesis/boot1.rom","mister-boot.md"),
     ("|games/NES/boot1.rom","mister-boot.nes"),
     ("|games/SMS/boot.rom","mister-boot.sms"),
     ("|games/SNES/boot.rom","mister-boot.sfc"),

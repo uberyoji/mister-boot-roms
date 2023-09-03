@@ -1,7 +1,7 @@
 
     {    
         "db_id": "uberyoji_mister_boot_roms",
-        "timestamp": 1677354347,
+        "timestamp": 1693710192,
         "files": {
             
             "|games/Gameboy/boot2.rom": {
@@ -13,7 +13,7 @@
                 "reboot": false
             },
 
-            "|games/Genesis/boot.rom": {
+            "|games/Genesis/boot1.rom": {
                 "hash": "db6cabad069010368214b032d714efe5",
                 "size": 131072,
                 "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.11/mister-boot.md",
