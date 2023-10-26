@@ -36,7 +36,7 @@ def get_file_props( entry ):
                 "overwrite": true,
                 "reboot": false
             }}"""
-        return file_entry.format( pathname, hashlib.md5(open(fullname,'rb').read()).hexdigest(), os.path.getsize(fullname), "{}{}".format( db_url, filename ) )
+        return file_entry.format( pathname, hashlib.md5(open(fullname,'rb').read()).hexdigest(), os.path.getsize(fullname), ("{}{}".format( db_url, filename )).replace( ' ', '.') )
     else:
         print( "{} not found".format(filename) )
         return ""
