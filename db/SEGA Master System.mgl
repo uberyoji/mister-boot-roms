@@ -1,0 +1,5 @@
+<mistergamedescription>
+    <rbf>_Console/SMS</rbf>
+    <setname>_mister-boot-roms</setname>
+    <file delay="3" type="f" index="1" path="mister-boot.sms"/>
+</mistergamedescription>

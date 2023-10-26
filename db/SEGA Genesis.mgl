@@ -1,0 +1,5 @@
+<mistergamedescription>
+    <rbf>_Console/MegaDrive</rbf>
+    <setname>_mister-boot-roms</setname>
+    <file delay="1" type="f" index="1" path="mister-boot.md"/>
+</mistergamedescription>

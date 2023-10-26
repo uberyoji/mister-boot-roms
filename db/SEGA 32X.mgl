@@ -1,0 +1,5 @@
+<mistergamedescription>
+    <rbf>_Console/S32X</rbf>
+    <setname>_mister-boot-roms</setname>
+    <file delay="2" type="f" index="1" path="mister-boot.32x"/>
+</mistergamedescription>

@@ -1,0 +1,145 @@
+
+    {    
+        "db_id": "uberyoji_mister_boot_roms_mgl",
+        "timestamp": 1698286675,
+        "files": {
+            
+            "|games/_mister-boot-roms/mister-boot.gb": {
+                "hash": "4cdf301d898ba7e87e086879d46fa1f5",
+                "size": 32768,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/mister-boot.gb",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "|games/_mister-boot-roms/mister-boot.md": {
+                "hash": "db6cabad069010368214b032d714efe5",
+                "size": 131072,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/mister-boot.md",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "|games/_mister-boot-roms/mister-boot.nes": {
+                "hash": "a7e23a042d97b5659742d002f76fa503",
+                "size": 262160,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/mister-boot.nes",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "|games/_mister-boot-roms/mister-boot.sms": {
+                "hash": "f5535d9934332f52d5760a403547057d",
+                "size": 32768,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/mister-boot.sms",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "|games/_mister-boot-roms/mister-boot.sfc": {
+                "hash": "8bbf9ff1db725b5d96ec8f001467494e",
+                "size": 262144,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/mister-boot.sfc",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "|games/_mister-boot-roms/mister-boot.pce": {
+                "hash": "8c66c17a94a8fffa95abd611092079ed",
+                "size": 131072,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/mister-boot.pce",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "|games/_mister-boot-roms/mister-boot.32x": {
+                "hash": "ebd43a0ffc4c55612857493d6f9256dc",
+                "size": 262144,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/mister-boot.32x",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "_Console (autoboot)/NEC PC Engine.mgl": {
+                "hash": "1b51fb2419077d18f3fd86aa313d0b49",
+                "size": 194,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/NEC PC Engine.mgl",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "_Console (autoboot)/Nintendo Gameboy.mgl": {
+                "hash": "8cac693be0c2a8fefa60f6dd3b41f864",
+                "size": 188,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/Nintendo Gameboy.mgl",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "_Console (autoboot)/Nintendo NES.mgl": {
+                "hash": "e599525f4deab176f3ee8f891f83b8a8",
+                "size": 185,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/Nintendo NES.mgl",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "_Console (autoboot)/Nintendo SNES.mgl": {
+                "hash": "d7021a83d963cd56b5aad72dceb2eb83",
+                "size": 186,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/Nintendo SNES.mgl",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "_Console (autoboot)/SEGA 32X.mgl": {
+                "hash": "4fbcd10dc5a84959d7a3e2a817d1d82d",
+                "size": 186,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/SEGA 32X.mgl",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "_Console (autoboot)/SEGA Genesis.mgl": {
+                "hash": "809e89a8d32bdb3840e816dae00d8099",
+                "size": 190,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/SEGA Genesis.mgl",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "_Console (autoboot)/SEGA Master System.mgl": {
+                "hash": "d9442a489aba6ee286dc2788d281956b",
+                "size": 185,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/SEGA Master System.mgl",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            }
+        },
+
+        "folders": {
+            "|games/_mister-boot-roms/": { 
+                "tags": []
+            },
+            "_Console (autoboot)": { 
+                "tags": []
+            }
+        },
+
+        "base_files_url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.12/"
+    }
+    

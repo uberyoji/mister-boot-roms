@@ -1,0 +1,5 @@
+<mistergamedescription>
+    <rbf>_Console/TurboGrafx16</rbf>
+    <setname>_mister-boot-roms</setname>
+    <file delay="1" type="f" index="0" path="mister-boot.pce"/>
+</mistergamedescription>
