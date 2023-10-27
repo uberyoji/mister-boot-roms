@@ -27,7 +27,7 @@ So far only the following core roms are available.
 | Core | Preview |
 | :--: | :------: |
 | NES | ![NES](Images/NES.gif) | 
-| SNES | ![NES](Images/snes.gif) | 
+| SNES | ![SNES](Images/snes.gif) | 
 | Nintendo Gameboy | ![Gameboy](Images/gameboy.gif) |  
 | NEC PC Engine | ![PCE](Images/pce.gif) | 
 | Sega Master System | ![SMS](Images/sms.gif) | 
@@ -54,7 +54,6 @@ So far only the following core roms are available.
 #### TODO: SMS
 - Add more scenes
 - Add sram support to save scene config
-- Fix issue with bios turned on
 
 #### TODO: 32X
 - Save fire palette selection to SRAM
