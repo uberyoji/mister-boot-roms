@@ -24,15 +24,15 @@ db_url = https://raw.githubusercontent.com/uberyoji/mister-boot-roms/main/db/ube
 - Extract it into the root of your MiSTer folder (usually /media/fat on your sd card)
 ## Available ROMS
 So far only the following core roms are available.
-| Core | Preview | Notes |
-| :--: | :----: | :--- | 
-| NES | ![NES](Images/NES.gif) | Keys<br/>> Select: Toggle rainbow on/off on logo<br/>> Left/Right: Change logo color<br/><br/>Last scene and options now saved to sram.  |
-| SNES | ![NES](Images/snes.gif) | |
-| Nintendo Gameboy | ![Gameboy](Images/gameboy.gif) |  |
-| NEC PC Engine | ![PCE](Images/pce.gif) | |
-| Sega Master System | ![SMS](Images/sms.gif) | |
-| Sega Genesis | ![Genesis](Images/genesis.gif) | |
-| Sega 32X | ![32X](Images/32x.gif) |  |
+| Core | Preview |
+| :--: | :----: |
+| NES | ![NES](Images/NES.gif) | 
+| SNES | ![NES](Images/snes.gif) | 
+| Nintendo Gameboy | ![Gameboy](Images/gameboy.gif) |  
+| NEC PC Engine | ![PCE](Images/pce.gif) | 
+| Sega Master System | ![SMS](Images/sms.gif) | 
+| Sega Genesis | ![Genesis](Images/genesis.gif) | 
+| Sega 32X | ![32X](Images/32x.gif) |  
 
 #### Upcoming core roms:
 - GBA WIP.
