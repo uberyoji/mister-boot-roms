@@ -2,9 +2,9 @@
 Custom boot roms for the MiSTer FPGA project.
 The MiSTer fpga project has MGL file support that offer an interesting feature where you can boot into a rom upon starting it.
 This project offers custimized roms to make some of the cores more interesting and fun.
-Note: These are not bios replacement but only roms that are launched when booting a core.
+Note: These are not bios replacement but only roms that are launched when booting a core thru MGL files.
 
-Once I have tackled all the cores that can auto boot roms, I will release the source code and build instructions for people that want to do remixes.
+Once I have tackled all the planned cores, I will release the source code and build instructions for people that want to do remixes.
 
 If you want to contribute now, feel free to contact me on twitter. twitter.com/uberyoji
 
@@ -25,7 +25,7 @@ db_url = https://raw.githubusercontent.com/uberyoji/mister-boot-roms/main/db/ube
 ## Available ROMS
 So far only the following core roms are available.
 | Core | Preview |
-| :--: | :----: |
+| :--: | :------: |
 | NES | ![NES](Images/NES.gif) | 
 | SNES | ![NES](Images/snes.gif) | 
 | Nintendo Gameboy | ![Gameboy](Images/gameboy.gif) |  
