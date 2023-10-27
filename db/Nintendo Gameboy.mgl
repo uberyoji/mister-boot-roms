@@ -1,5 +1,4 @@
 <mistergamedescription>
     <rbf>_Console/Gameboy</rbf>
-    <setname>_mister-boot-roms</setname>
     <file delay="2" type="f" index="1" path="mister-boot.gb"/>
 </mistergamedescription>

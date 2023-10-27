@@ -42,13 +42,13 @@ def get_file_props( entry ):
         return ""
 
 roms = [
-    ("|games/_mister-boot-roms/mister-boot.gb","mister-boot.gb"),
-    ("|games/_mister-boot-roms/mister-boot.md","mister-boot.md"),
-    ("|games/_mister-boot-roms/mister-boot.nes","mister-boot.nes"),
-    ("|games/_mister-boot-roms/mister-boot.sms","mister-boot.sms"),
-    ("|games/_mister-boot-roms/mister-boot.sfc","mister-boot.sfc"),
-    ("|games/_mister-boot-roms/mister-boot.pce","mister-boot.pce"),
-    ("|games/_mister-boot-roms/mister-boot.32x","mister-boot.32x"),
+    ("|games/GameBoy/mister-boot.gb","mister-boot.gb"),
+    ("|games/MegaDrive/mister-boot.md","mister-boot.md"),
+    ("|games/NES/mister-boot.nes","mister-boot.nes"),
+    ("|games/SMS/mister-boot.sms","mister-boot.sms"),
+    ("|games/SNES/mister-boot.sfc","mister-boot.sfc"),
+    ("|games/TGFX16/mister-boot.pce","mister-boot.pce"),
+    ("|games/S32X/mister-boot.32x","mister-boot.32x"),
     ("_Console (autoboot)/NEC PC Engine.mgl","NEC PC Engine.mgl"),
     ("_Console (autoboot)/Nintendo Gameboy.mgl","Nintendo Gameboy.mgl"),
     ("_Console (autoboot)/Nintendo NES.mgl","Nintendo NES.mgl"),
@@ -77,7 +77,25 @@ def build_json( tag ):
         }},
 
         "folders": {{
-            "|games/_mister-boot-roms/": {{ 
+            "|games/Gameboy/": {{ 
+                "tags": []
+            }},
+            "|games/NES/": {{ 
+                "tags": []
+            }},
+             "|games/SNES/": {{ 
+                "tags": []
+            }},
+             "|games/MegaDrive/": {{ 
+                "tags": []
+            }},
+             "|games/SMS/": {{ 
+                "tags": []
+            }},
+             "|games/S32X/": {{ 
+                "tags": []
+            }},
+             "|games/TGFX16/": {{ 
                 "tags": []
             }},
             "_Console (autoboot)": {{ 

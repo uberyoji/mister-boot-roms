@@ -1,5 +1,4 @@
 <mistergamedescription>
     <rbf>_Console/SNES</rbf>
-    <setname>_mister-boot-roms</setname>
     <file delay="2" type="f" index="0" path="mister-boot.sfc"/>
 </mistergamedescription>
