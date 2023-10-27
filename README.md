@@ -1,6 +1,6 @@
 # mister-boot-roms
 Custom boot roms for the MiSTer FPGA project.
-The MiSTer fpga project has cores that offer an interesting feature where you can boot into a rom upon starting it.
+The MiSTer fpga project has MGL file support that offer an interesting feature where you can boot into a rom upon starting it.
 This project offers custimized roms to make some of the cores more interesting and fun.
 Note: These are not bios replacement but only roms that are launched when booting a core.
 
@@ -15,27 +15,31 @@ For more information about MiSTer please refer to the official wiki page: https:
 ### By using update_all to install the latest release
 Add the following to the bottom of `/media/fat/downloader.ini` on your MiSTer:
 ```ini
-[uberyoji_mister_boot_roms]
-db_url = https://raw.githubusercontent.com/uberyoji/mister-boot-roms/main/db/uberyoji_mister_boot_roms.json
+[uberyoji_mister_boot_roms_mgl]
+db_url = https://raw.githubusercontent.com/uberyoji/mister-boot-roms/main/db/uberyoji_mister_boot_roms_mgl.json
 ```
 ### By downloading a release zip and extracting manually
 - Navigate to the tags section of this repo
-- Download 'mister-boot-roms.zip'
-- Extract it into your 'Games' folder (usually /media/fat/Games on your mister sd card)
+- Download 'mister-boot-roms-mgl.zip'
+- Extract it into the root of your MiSTer folder (usually /media/fat on your sd card)
 ## Available ROMS
 So far only the following core roms are available.
-| Core | Naming | Preview | Notes |
-| :--: | :------: | :----: | :--- | 
-| NES | boot1.rom | ![NES](Images/NES.gif) | Keys<br/>> Select: Toggle rainbow on/off on logo<br/>> Left/Right: Change logo color<br/><br/>Last scene and options now saved to sram.  |
-| SNES | boot.rom | ![NES](Images/snes.gif) | |
-| Nintendo Gameboy | boot2.rom | ![Gameboy](Images/gameboy.gif) | Must set System to Gameboy since System:Auto won't work properly. |
-| NEC PC Engine | boot.rom | ![PCE](Images/pce.gif) | |
-| Sega Master System | boot.rom | ![SMS](Images/sms.gif) | WIP (Issue with bios. Disable in menu to have it launch properly on core boot.) |
-| Sega Genesis | boot1.rom | ![Genesis](Images/genesis.gif) | Not compatible with new Nuked MD MegaDrive core yet. |
-| Sega 32X | boot.rom | ![32X](Images/32x.gif) |  |
+| Core | Preview | Notes |
+| :--: | :----: | :--- | 
+| NES | ![NES](Images/NES.gif) | Keys<br/>> Select: Toggle rainbow on/off on logo<br/>> Left/Right: Change logo color<br/><br/>Last scene and options now saved to sram.  |
+| SNES | ![NES](Images/snes.gif) | |
+| Nintendo Gameboy | ![Gameboy](Images/gameboy.gif) |  |
+| NEC PC Engine | ![PCE](Images/pce.gif) | |
+| Sega Master System | ![SMS](Images/sms.gif) | |
+| Sega Genesis | ![Genesis](Images/genesis.gif) | |
+| Sega 32X | ![32X](Images/32x.gif) |  |
 
 #### Upcoming core roms:
-- GBA (boot.rom) WIP. Unreleased since the boot support in MiSTer is not working :-/ See this: https://github.com/MiSTer-devel/GBA_MiSTer/issues/87
+- GBA WIP.
+- Saturn
+- N64
+- PSX
+- Color remixed version of Gameboy
 
 ## TODO:
 - Clean and upload source code.
