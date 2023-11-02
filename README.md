@@ -28,6 +28,7 @@ So far only the following core roms are available.
 | :--: | :------: |
 | NES | ![NES](Images/NES.gif) | 
 | SNES | ![SNES](Images/snes.gif) | 
+| GBA | ![GBA](Images/GBA.gif) | 
 | Nintendo Gameboy | ![Gameboy](Images/gameboy.gif) |  
 | NEC PC Engine | ![PCE](Images/pce.gif) | 
 | Sega Master System | ![SMS](Images/sms.gif) | 
@@ -35,7 +36,6 @@ So far only the following core roms are available.
 | Sega 32X | ![32X](Images/32x.gif) |  
 
 #### Upcoming core roms:
-- GBA WIP.
 - Saturn
 - N64
 - PSX

@@ -1,7 +1,7 @@
 
     {    
         "db_id": "uberyoji_mister_boot_roms_mgl",
-        "timestamp": 1698434390,
+        "timestamp": 1698893854,
         "files": {
             
             "|games/GameBoy/mister-boot.gb": {
@@ -62,6 +62,15 @@
                 "hash": "ebd43a0ffc4c55612857493d6f9256dc",
                 "size": 262144,
                 "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.13/mister-boot.32x",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
+            },
+
+            "|games/GBA/mister-boot.gba": {
+                "hash": "52b04e81635c1beb586af88eb5e2187e",
+                "size": 20800,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.13/mister-boot.gba",
                 "tags": [],
                 "overwrite": true,
                 "reboot": false
@@ -128,6 +137,15 @@
                 "tags": [],
                 "overwrite": true,
                 "reboot": false
+            },
+
+            "_Console (autoboot)/Nintendo GBA.mgl": {
+                "hash": "41a9b4f534034beb8b436a40d80fd9bc",
+                "size": 143,
+                "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.13/Nintendo.GBA.mgl",
+                "tags": [],
+                "overwrite": true,
+                "reboot": false
             }
         },
 
@@ -151,6 +169,9 @@
                 "tags": []
             },
              "|games/TGFX16/": { 
+                "tags": []
+            },
+             "|games/GBA/": { 
                 "tags": []
             },
             "_Console (autoboot)": { 
