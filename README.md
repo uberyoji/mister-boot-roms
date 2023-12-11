@@ -34,11 +34,11 @@ So far only the following core roms are available.
 | Sega Master System | ![SMS](Images/sms.gif) | 
 | Sega Genesis | ![Genesis](Images/genesis.gif) | 
 | Sega 32X | ![32X](Images/32x.gif) |  
+| PlayStation | ![PSX](Images/PSX.gif) |  
 
 #### Upcoming core roms:
 - Saturn
 - N64
-- PSX
 - Color remixed version of Gameboy
 
 ## TODO:
