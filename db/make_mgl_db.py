@@ -51,6 +51,7 @@ roms = [
     ("|games/S32X/mister-boot.32x","mister-boot.32x"),
     ("|games/GBA/mister-boot.gba","mister-boot.gba"),
     ("|games/PSX/mister-boot.chd","mister-boot.chd"),
+    ("|games/N64/mister-boot.z64","mister-boot.z64"),
     ("_Console (autoboot)/NEC PC Engine.mgl","NEC PC Engine.mgl"),
     ("_Console (autoboot)/Nintendo Gameboy.mgl","Nintendo Gameboy.mgl"),
     ("_Console (autoboot)/Nintendo NES.mgl","Nintendo NES.mgl"),
@@ -59,7 +60,8 @@ roms = [
     ("_Console (autoboot)/SEGA Genesis.mgl","SEGA Genesis.mgl"),
     ("_Console (autoboot)/SEGA Master System.mgl","SEGA Master System.mgl"),
     ("_Console (autoboot)/Nintendo GBA.mgl","Nintendo GBA.mgl"),
-    ("_Console (autoboot)/Sony PlayStation.mgl","Sony PlayStation.mgl")
+    ("_Console (autoboot)/Sony PlayStation.mgl","Sony PlayStation.mgl"),
+    ("_Console (autoboot)/Nintendo 64.mgl","Nintendo 64.mgl")
 ]
 
 def validate(text):
@@ -106,6 +108,9 @@ def build_json( tag ):
                 "tags": []
             }},
              "|games/PSX/": {{ 
+                "tags": []
+            }},
+            "|games/N64/": {{ 
                 "tags": []
             }},
             "_Console (autoboot)": {{ 

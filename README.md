@@ -35,10 +35,10 @@ So far only the following core roms are available.
 | Sega Genesis | ![Genesis](Images/genesis.gif) | 
 | Sega 32X | ![32X](Images/32x.gif) |  
 | PlayStation | ![PSX](Images/PSX.gif) |  
+| N64 | beta wip |  
 
 #### Upcoming core roms:
 - Saturn
-- N64
 - Color remixed version of Gameboy
 
 ## TODO:
