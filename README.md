@@ -12,12 +12,17 @@ For more information about MiSTer please refer to the official wiki page: https:
 
 ## How to install the boot roms
 
-### By using update_all to install the latest release
-Add the following to the bottom of `/media/fat/downloader.ini` on your MiSTer:
-```ini
-[uberyoji_mister_boot_roms_mgl]
-db_url = https://raw.githubusercontent.com/uberyoji/mister-boot-roms/main/db/uberyoji_mister_boot_roms_mgl.json
-```
+### Recommended way 
+Using [theypsilon](https://github.com/theypsilon)'s MiSTer [update_all](https://github.com/theypsilon/Update_All_MiSTer) script.
+- Launch update_all from the Scripts menu on your MiSTer
+- Press up when prompted to access the SETTINGS menu
+- Navigate to Extra Content
+- Toggle "uberyoji Boot ROMS" from the menu
+- Go back
+- SAVE
+- Then EXIT and RUN UPDATE ALL
+
+
 ### By downloading a release zip and extracting manually
 - Navigate to the tags section of this repo
 - Download 'mister-boot-roms-mgl.zip'
@@ -35,7 +40,7 @@ So far only the following core roms are available.
 | Sega Genesis | ![Genesis](Images/genesis.gif) | 
 | Sega 32X | ![32X](Images/32x.gif) |  
 | PlayStation | ![PSX](Images/PSX.gif) |  
-| N64 | beta wip - Concept by [Dinierto Designs](https://t.co/YbKggNAU5R) |
+| N64 wip | ![N64](Images/N64.gif) <br/> Concept by [Dinierto Designs](https://t.co/YbKggNAU5R) |
 
 #### Upcoming core roms:
 - Saturn
