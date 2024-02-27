@@ -35,7 +35,7 @@ So far only the following core roms are available.
 | Sega Genesis | ![Genesis](Images/genesis.gif) | 
 | Sega 32X | ![32X](Images/32x.gif) |  
 | PlayStation | ![PSX](Images/PSX.gif) |  
-| N64 | beta wip |  
+| N64 | beta wip - Concept by [Dinierto Designs](https://t.co/YbKggNAU5R) |
 
 #### Upcoming core roms:
 - Saturn
