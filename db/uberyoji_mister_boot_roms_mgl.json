@@ -1,7 +1,7 @@
 
     {    
         "db_id": "uberyoji_mister_boot_roms_mgl",
-        "timestamp": 1708921255,
+        "timestamp": 1708991796,
         "files": {
             
             "|games/GameBoy/mister-boot.gb": {
@@ -176,7 +176,7 @@
             },
 
             "_Console (autoboot)/Nintendo 64.mgl": {
-                "hash": "62a04ca3c0dea69555eea3a82953c538",
+                "hash": "7b85463ea145d970bf9e184d20da1e47",
                 "size": 143,
                 "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.16/Nintendo.64.mgl",
                 "tags": [],
