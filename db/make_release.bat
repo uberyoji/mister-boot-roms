@@ -19,6 +19,7 @@ mkdir release\games\S32X
 mkdir release\games\TGFX16
 mkdir release\games\GBA
 mkdir release\games\PSX
+mkdir release\games\N64
 
 copy mister-boot.gb release\games\Gameboy
 copy mister-boot.md release\games\MegaDrive
@@ -29,6 +30,7 @@ copy mister-boot.32x release\games\S32X
 copy mister-boot.pce release\games\TGFX16
 copy mister-boot.gba release\games\GBA
 copy mister-boot.chd release\games\PSX
+copy mister-boot.z64 release\games\N64
 
 echo Building Archive
 cd release
