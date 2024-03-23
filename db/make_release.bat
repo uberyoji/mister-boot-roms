@@ -30,6 +30,7 @@ copy mister-boot.32x release\games\S32X
 copy mister-boot.pce release\games\TGFX16
 copy mister-boot.gba release\games\GBA
 copy mister-boot.chd release\games\PSX
+copy mister-demo.chd release\games\PSX
 copy mister-boot.z64 release\games\N64
 
 echo Building Archive

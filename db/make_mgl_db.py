@@ -51,6 +51,7 @@ roms = [
     ("|games/S32X/mister-boot.32x","mister-boot.32x"),
     ("|games/GBA/mister-boot.gba","mister-boot.gba"),
     ("|games/PSX/mister-boot.chd","mister-boot.chd"),
+    ("|games/PSX/mister-demo.chd","mister-demo.chd"),
     ("|games/N64/mister-boot.z64","mister-boot.z64"),
     ("_Console (autoboot)/NEC PC Engine.mgl","NEC PC Engine.mgl"),
     ("_Console (autoboot)/Nintendo Gameboy.mgl","Nintendo Gameboy.mgl"),
