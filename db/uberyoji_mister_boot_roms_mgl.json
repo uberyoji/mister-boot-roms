@@ -1,7 +1,7 @@
 
     {    
         "db_id": "uberyoji_mister_boot_roms_mgl",
-        "timestamp": 1711220956,
+        "timestamp": 1711222476,
         "files": {
             
             "|games/GameBoy/mister-boot.gb": {
@@ -77,8 +77,8 @@
             },
 
             "|games/PSX/mister-boot.chd": {
-                "hash": "cf423d36643b977d8e16ea8449d43e6f",
-                "size": 49599,
+                "hash": "1edb003ad9748b2514808c3bbd493b3f",
+                "size": 61394,
                 "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.18/mister-boot.chd",
                 "tags": [],
                 "overwrite": true,
