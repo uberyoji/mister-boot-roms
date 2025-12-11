@@ -4,7 +4,7 @@
         "timestamp": 1711222476,
         "files": {
             
-            "|games/GameBoy/mister-boot.gb": {
+            "|games/Gameboy/mister-boot.gb": {
                 "hash": "4cdf301d898ba7e87e086879d46fa1f5",
                 "size": 32768,
                 "url": "https://github.com/uberyoji/mister-boot-roms/releases/download/v.0.18/mister-boot.gb",
